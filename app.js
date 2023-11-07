@@ -9,6 +9,7 @@ const app=express();
 const dbUri="mongodb://localhost:27017/bill";
 
 const billrouters=require('./routes/billRouters');
+const userrouters=require('./routes/userRouters');
 
 app.use(express.json());
 
@@ -26,5 +27,6 @@ app.get('/',(req,res)=>{
 });
 
 app.use(billrouters); 
+app.use(userrouters);
 
 
