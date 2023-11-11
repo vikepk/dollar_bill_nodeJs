@@ -25,8 +25,9 @@ const bill_details=(req,res)=>{
         //to find the id in the req.url
        Bill.find({email:id1,date:id2}).then((result)=>{
         //finding the blog using its id
-        console.log(result)
-        res.send(result)
+        console.log(result);
+        res.status(200);
+        res.send(result);
        }).catch((err)=>console.log(err))
         
     };
