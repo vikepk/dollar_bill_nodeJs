@@ -32,4 +32,23 @@ const bill_details=(req,res)=>{
         
     };
 
-module.exports={get_data,send_data,bill_details,bill_details}
+const bill_del=async(req,res)=>{
+    const id=req.params.id;
+    console.log(id);
+    //to find the id in the req.url
+
+    try{
+       const result= await Bill.deleteOne({_id:id});
+       if(result.deletedCount===0){
+        return res.status(404).json({ error: 'Bill not found' });
+       }
+       res.status(204).send();
+    }
+    catch(err){
+    console.log(err);
+    res.status(500).json(err);
+
+}
+}
+
+module.exports={get_data,send_data,bill_details,bill_details,bill_del}
