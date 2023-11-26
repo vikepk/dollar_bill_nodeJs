@@ -1,0 +1,57 @@
+{"level":"error","message":"error"}
+{"level":"warn","message":"warn"}
+{"level":"info","message":"info"}
+{"level":"verbose","message":"verbose"}
+{"level":"debug","message":"debug"}
+{"level":"silly","message":"silly"}
+{"level":"info","message":"Connected to MongoDB"}
+error
+warn
+info
+verbose
+debug
+silly
+info
+error + error
+warn + warn
+info + info
+verbose + verbose
+debug + debug
+silly + silly
+info + Connected to MongoDB
+error - error
+warn - warn
+info - info
+verbose - verbose
+debug - debug
+silly - silly
+info - Connected to MongoDB
+[ERROR  ] - error
+[WARN   ] - warn
+[INFO   ] - info
+[VERBOSE] - verbose
+[DEBUG  ] - debug
+[SILLY  ] - silly
+[INFO   ] - Connected to MongoDB
+undefined[ERROR  ] - error
+undefined[WARN   ] - warn
+undefined[INFO   ] - info
+undefined[VERBOSE] - verbose
+undefined[DEBUG  ] - debug
+undefined[SILLY  ] - silly
+undefined[INFO   ] - Connected to MongoDB
+2023-11-25T09:06:30.383Z[ERROR  ] - error
+2023-11-25T09:06:30.385Z[WARN   ] - warn
+2023-11-25T09:06:30.386Z[INFO   ] - info
+2023-11-25T09:06:30.387Z[VERBOSE] - verbose
+2023-11-25T09:06:30.387Z[DEBUG  ] - debug
+2023-11-25T09:06:30.388Z[SILLY  ] - silly
+2023-11-25T09:06:30.427Z[INFO   ] - Connected to MongoDB
+2023-11-25T09:07:39.329Z[ERROR  ] - error
+2023-11-25T09:07:39.331Z[WARN   ] - warn
+2023-11-25T09:07:39.332Z[INFO   ] - info
+2023-11-25T09:07:39.333Z[VERBOSE] - verbose
+2023-11-25T09:07:39.333Z[DEBUG  ] - debug
+2023-11-25T09:07:39.334Z[SILLY  ] - silly
+2023-11-25T09:07:39.378Z[INFO   ] - Connected to MongoDB
+2023-11-25T09:07:48.390Z[INFO   ] - Connected to MongoDB
